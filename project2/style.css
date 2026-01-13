@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 46vmax; 
+    
+     
+}
+.hero-section{
+    height: 593px;
+    
+    background-image: url(imageNetflix/netflix-hero.jpg);
+    background-size: cover;
+}
+
+.header{
+    height: 90px;
+    width: 65rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: brightness(0.79);
+    border-radius: 15px;
+    margin-left: 8rem;
+    
+}
+.header-logo{
+    height: 70px;
+    width: 12rem;
+    background-image: url("imageNetflix/netflix-logo.png");
+    background-size: cover;
+    margin-right: 350px;
+}
+
+.language{
+    color: white;
+    height: 30px;
+    width: 8rem;
+    border: 2px solid white;
+    margin-left: 190px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.23rem;
+}
+.language p{
+    margin-left: 10px;
+    margin-right:5px ;
+}
+.signup{
+    height: 30px;
+    width: 7rem;
+    background-color: red;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.signup a{
+    color: white;
+    text-decoration: none;
+    font-weight: 520;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.movie-heading{
+    height: 100px;
+    width: 30rem;
+    color: rgba(255,255,255,1);
+    
+   
+    
+}
+.movie-heading h1{
+    position: absolute;
+    top: 190px;
+    left:29%;
+    right:20% ;
+     backdrop-filter: brightness(0.79);
+     font-weight: 700;
+    border-radius: 15px;
+    font-size: 3.9rem;
+    font-family:  sans-serif;
+}
+.movie-heading p{
+    position: absolute;
+    top: 338px;
+    left:35%;
+    right:35% ;
+    backdrop-filter: brightness(0.79);
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-weight: 600;
+    
+}
+.movie-heading h3{
+     position: absolute;
+    top: 400px;
+    left:28%;
+    
+    backdrop-filter: brightness(0.79);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    font-weight: 400;
+   
+}
+.get-access{
+    position: absolute;
+    top: 450px;
+    backdrop-filter: brightness(0.79);
+    left: 23%;
+    border-radius: 7px;
+}
+.get-access input{
+    height: 55px;
+    width: 27rem;
+    padding: 24px,16px,8px,10px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    font-weight: 400;
+    color: white;
+}
+.get-access button{
+     height: 57px;
+    width: 15rem;
+    padding: 24px,16px,8px,10px;
+    background-color: red;
+    font-size: 1.4rem;
+    border: 2px solid red;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
+}
+.curvature{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 100%;
+    border-top: 8px solid rgb(207, 21, 21);
+    position: relative;
+    bottom: -350px;
+    
+        
+
+}
+.different-color{
+    height: 29px;
+    width: 100%;
+    background-color: black;
+     position: relative;
+    bottom: -20px;
+}
+.trending h2{
+    color: white;
+    margin-left: 6%;
+     width: 85%;
+    height: 23px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.trending{
+    width: 100%;
+    background-color: black;
+}
+.movie-section{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 290px;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 40px ;
+    border-radius: 10px;
+   
+}
+.movie1{
+    background-image: url(imageNetflix/image\ 1.jpg);
+    background-size: cover;
+}
+.movie2{
+    background-image: url(imageNetflix/image\ 2.png);
+    background-size: cover;
+}
+.movie3{
+    background-image: url(imageNetflix/image\ 3.jpg);
+    background-size: cover;
+}
+.movie4{
+    background-image: url(imageNetflix/image\ 4.jpg);
+    background-size: cover;
+}
+.movie5{
+    background-image: url(imageNetflix/image\ 5.jpg);
+    background-size: cover;
+}
+.movie6{
+    background-image: url(imageNetflix/image\ 6.jpg);
+    background-size: cover;
+}
+.movie7{
+    background-image: url(imageNetflix/image\ 7.jpg);
+    background-size: cover;
+}
+.movie8{
+    background-image: url(imageNetflix/image\ 8.jpg);
+    background-size: cover;
+}
+.border:hover{
+    border: 1.5px solid white;
+   
+}
+.joining{
+    margin-top: 0px;
+    background-color: black;
+    height: 400px;
+    
+}
+
+.joining h2{
+    color: white;
+    margin-left: 6%;
+     width: 85%;
+    height: 23px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.box-info{
+    width: 80%;
+    margin-left: 10%;
+   display: flex;
+   justify-content: space-evenly;
+    margin-top: 60px;
+}
+.new-box{
+     height: 230px;
+    width: 200px;
+    background-color: rgba(232, 81, 209,0.8);
+    color: white;
+    border-radius: 10px;
+}
+.new-box p{
+   position: relative;
+   bottom: -25px;
+    font-size: 18px;
+margin-left:1.5px;
+margin-right:1.5px;
+font-weight: 300;
+}
+.new-box h3{
+    margin-top: 10px;
+    font-size: 30px;
+margin-left:1.5px;
+margin-right:1.5px;  
+font-weight: 600;  
+}
+
+.faqs{
+    height: 650px;
+    background-color: black;
+}
+.faqs h3{
+    color: white;
+    margin-left: 5%;
+     width: 85%;
+    height: 23px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.ques{
+  width: 85%;
+  margin-left: 7%;
+
+}
+.ques-box{
+    background-color: #414141;
+    height: 70px;
+    margin-top: 20px;
+}
+.ques-box button{
+    width: 100%;
+    font-size: 25px;
+    height: 70px;
+    background-color: #414141;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.plus{
+    margin-left: 710px;
+    margin-right: 0px;
+}
+.footer{
+    height: 180px;
+    background-color: black;
+    display: flex;
+   
+}
+#start-btn{
+    margin-top: 30px;
+    height: 70px;
+    width: 250px;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+}
+
+.footer-panel2{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    color: white;
+    display: block;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+#footer-para1{
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+     padding-bottom: 20px;
+}
+#footer-para2{
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: black;
+}
